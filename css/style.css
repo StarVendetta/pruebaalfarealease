@@ -1,0 +1,405 @@
+/* Importing the fonts from google fonts. */
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;300;400;500&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,200;1,600&display=swap");
+
+/* Defining a variable called `--colortextos` and assigning it a value of `#49454567`. */
+:root {
+  --colortextos: #49454567;
+}
+/* A CSS reset. It is used to reset the default styling of the browser. */
+
+*,
+::before ::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Setting the background color of the page. */
+body {
+  font-family: "League Spartan", sans-serif;
+  background: #f12711; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f5af19,
+    #f12711
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f5af19,
+    #f12711
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  /* Centering the form in the page. */
+  height: 650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#container {
+  background: #f2f2f2;
+  /* Setting the padding of the element to 40px on the top and bottom and 0 on the left and right. */
+  padding: 40px 0;
+  /* Adding a shadow to the element. */
+  box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);
+  /* Centering the form in the page. */
+  width: min(700px, 90%);
+  height: auto;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.5em;
+  /* Setting the padding of the element to 3.5em on the top and bottom and 1.5em on the left and
+      right. */
+  padding: 3.5em 1.5em;
+
+  /*flexbox */
+  max-width: 1000px;
+  /* Flexbox */
+}
+
+/* Centering the form in the page. */
+.container {
+  display: block;
+  margin-top: 0em;
+
+  width: min(700px, 90%);
+  height: auto;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  border-radius: 11px;
+
+  /*flexbox */
+  max-width: 1000px;
+  /* Flexbox */
+  display: flex;
+  flex-flow: row wrap;
+}
+
+/* Setting the position of the form to relative, the margin to 45px and the background to #f2f2f2. */
+.container {
+  position: relative;
+  background: #f2f2f2;
+}
+
+.container #start {
+  justify-content: center;
+  width: 100%;
+}
+
+#start {
+  padding: 15px;
+
+  margin: 1px;
+  height: inherit;
+  width: 5em;
+}
+
+#start h3 {
+  font-size: 2em;
+  align-items: center;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2em;
+}
+
+/*Start Section*/
+
+#start:hover {
+  background: transparent;
+  color: #000000;
+  cursor: pointer;
+}
+
+/*guide Section*/
+#guide,
+#quiz {
+  display: none;
+  justify-content: center;
+  width: 100%;
+}
+
+div#guide.group {
+  justify-content: center;
+  width: 100%;
+}
+
+div#quiz.group {
+  justify-content: center;
+  width: 100%;
+}
+
+#container h2 {
+  font-size: 36px;
+  box-sizing: border-box;
+  color: rgb(2, 1, 3);
+}
+
+#guide h4 {
+  height: auto;
+  width: 90%;
+  display: flex;
+  align-items: flex-start;
+  font-size: 28px;
+}
+
+#guide #button button {
+  font-family: "League Spartan", sans-serif;
+  background: #000;
+  border: none;
+  display: block;
+  width: 90%;
+  height: auto;
+  color: #f2f2f2;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1.5em;
+
+  padding: 5px;
+  height: 45px;
+  margin: 10px auto;
+  font-size: 16px;
+}
+
+#guide #button button:hover {
+  background: #1c9b2d;
+}
+
+#quiz {
+  height: 700px;
+  position: relative;
+}
+
+#quiz #quiz_header {
+  height: 60px;
+  width: 100%;
+  background: #fafafc;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  border-radius: 30px;
+}
+
+#quiz #quiz_header h5 {
+  font-size: 28px;
+  margin: 0 20px;
+  color: #000;
+}
+
+#quiz #quiz_header #timer {
+  height: 50px;
+  width: 200px;
+  background: #f2f2f2;
+  color: #000;
+  border: 1px solid #f2f2f2;
+  font-size: 18px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  right: 10px;
+}
+
+#quiz #quiz_header #timer h6 {
+  font-size: 22px;
+  display: grid;
+  place-items: center;
+  color: #000;
+  margin: 0 10px;
+}
+
+#quiz #quiz_header #timer #time {
+  height: 44px;
+  width: 50px;
+  background: #fff;
+  color: rgba(43, 45, 53, 0.822);
+  border: 1px solid #f2f2f2;
+  border-radius: 15px;
+  margin: 2px 0 0 27px;
+}
+
+/*Quiz Questions*/
+#quiz #question {
+  height: inherit;
+  top: auto;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  font-size: 28px;
+}
+
+#quiz #question h2 {
+  font-size: 27px;
+  overflow: hidden;
+}
+
+/*Quiz Options*/
+#quiz #optionList {
+  height: auto;
+  width: 100%;
+  position: absolute;
+  top: 260px;
+  display: block;
+  flex-direction: column;
+}
+
+#quiz #optionList h4 {
+  height: inherit;
+  width: auto;
+  background: #000;
+  line-height: 50px;
+  margin: 5px 0;
+  border-radius: 7px;
+  padding: 0 20px;
+  font-size: 20px;
+  color: #fff;
+  overflow: hidden;
+  border: 1px solid #f2f2f2;
+  cursor: pointer;
+}
+
+#quiz #optionList h4:hover {
+  background: #1c9b2d;
+}
+
+#quiz #optionList .active {
+  background: #1c9b2d;
+}
+
+#quiz #optionList .disabled {
+  pointer-events: none;
+}
+
+/*Answers Section*/
+
+#quiz #answersSection {
+  height: 60px;
+  width: 100%;
+  background: #fafafc;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  border-radius: 30px;
+}
+
+#quiz #answersSection h3 {
+  margin: 0px 30px;
+  display: none;
+}
+
+#quiz #answersSection h3:last-child {
+  height: 40px;
+  width: 100px;
+  display: grid;
+  place-items: center;
+  background: rgb(233, 89, 0);
+  position: absolute;
+  right: 0;
+  color: #fff;
+  border: 1px solid #f2f2f2;
+  font-size: 18px;
+  border-radius: 20px 5px;
+  cursor: pointer;
+  margin: 0 20px;
+}
+
+#quiz #answersSection h3:hover {
+  background: #1c9b2d;
+}
+
+#quiz #answersSection h3:first-child:hover {
+  background: none;
+}
+
+/*Result Section*/
+.container #result {
+  height: auto;
+  width: auto;
+  padding: 20px;
+  max-height: 50%;
+  border-radius: 30px;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  display: none;
+  font-size: 3em;
+  justify-content: center;
+  width: 100%;
+}
+
+#container #result {
+  font-size: 40px;
+  color: #000000;
+  position: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Setting the height of the element with the id `result` to 60px, the width to 260px, the
+border to none, the outline to none, the background to #000, the color to #e7f1fa, the left to
+105px,
+the top to 335px, the border to 1px solid #f2f2f2, the border-radius to 20px, the font-size to 18px
+and
+the cursor to pointer. */
+#container #result button {
+  font-family: "League Spartan", sans-serif;
+  background: #000;
+  border: none;
+  display: block;
+  width: 90%;
+  color: #f2f2f2;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 25px;
+  font-size: initial;
+  padding: 5px;
+  height: 45px;
+  margin: 10px auto;
+}
+
+#container #result button:hover {
+  background: #1c9b2d;
+}
+
+/*Responsive design */
+
+@media screen and (max-width: 430px) {
+  #quiz #answersSection {
+    padding: 10px;
+    height: auto;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #quiz #answersSection h3 {
+    font-size: 15px;
+  }
+
+  #quiz #answersSection h3:last-child {
+    width: 70%;
+    display: grid;
+    place-items: center;
+    position: relative;
+    border-radius: 12px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #quiz #quiz_header h5 {
+    display: none;
+  }
+}

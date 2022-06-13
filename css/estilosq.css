@@ -1,0 +1,319 @@
+/* Importing the fonts from google fonts. */
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;300;400;500&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,200;1,600&display=swap");
+
+/* Defining a variable called `--colortextos` and assigning it a value of `#49454567`. */
+:root {
+  --colortextos: #49454567;
+}
+/* A CSS reset. It is used to reset the default styling of the browser. */
+*,
+::before ::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Setting the background color of the page. */
+body {
+  font-family: "League Spartan", sans-serif;
+  background: #f12711; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f5af19,
+    #f12711
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f5af19,
+    #f12711
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  /* Centering the form in the page. */
+  height: 650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#particles-js {
+	height: 100vh; 
+	width: 100%;
+  position: fixed;
+  z-index: -1;
+}
+
+
+
+/* Centering the text of the `h1` element and setting the font weight to 700. */
+h1 {
+  text-align: center;
+  font-weight: 700;
+}
+
+/* Setting the background color of the form, the padding, the box-shadow, the border-radius, the width,
+the max-width, the margin, the border-radius and the padding. */
+form {
+  background: #f2f2f2;
+  /* Setting the padding of the element to 40px on the top and bottom and 0 on the left and right. */
+  padding: 40px 0;
+  /* Adding a shadow to the element. */
+  box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);
+  border-radius: 11px;
+  width: 90%;
+  max-width: 500px;
+  margin: auto;
+  border-radius: 1.5em;
+  /* Setting the padding of the element to 3.5em on the top and bottom and 1.5em on the left and
+    right. */
+  padding: 3.5em 1.5em;
+}
+
+/* Centering the form in the page. */
+.form {
+  width: 100%;
+  margin: auto;
+}
+
+/* Setting the position of the form to relative, the margin to 45px and the background to #f2f2f2. */
+form .grupo {
+  position: relative;
+  margin: 45px;
+  background: #f2f2f2;
+}
+
+/* Setting the background color of the input to none, the color to #c6c6c6, the font-size to 20px, the
+padding to 10px 10px 10px 5px, the display to block, the width to 100%, the border to none and the
+border-bottom to 1px solid var(--colortextos). */
+input {
+  background: none;
+  color: #c6c6c6;
+  font-size: 20px;
+  /* Setting the padding of the element to 10px on the top, 10px on the right, 10px on the bottom and
+    5px on the left. */
+  padding: 10px 10px 10px 5px;
+  /* Making the element take up the entire width of the parent element. */
+  display: block;
+  width: 100%;
+  /* Setting the border of the element to none and the border-bottom to 1px solid var(--colortextos). */
+  border: none;
+  border-bottom: 1px solid var(--colortextos);
+}
+
+/* Setting the outline of the element to none and the color to rgba(94,93,93). */
+input:focus {
+  outline: none;
+  color: rgba(94, 93, 93);
+}
+
+/* Setting the color of the label to var(--colortextos), the font-size to 22px, the position to
+absolute, the bottom to 0, the left to 5px, the top to 10px, the transition to 0.5s ease-in-out and
+the pointer-events to none. */
+label {
+  color: var(--colortextos);
+  font-size: 22px;
+  position: absolute;
+  bottom: 0;
+  left: 5px;
+  top: 10px;
+  /* Setting the transition of the element to 0.5 seconds, ease-in-out. */
+  transition: 0.5s ease-in-out;
+  /* Used to prevent the element from being clicked. */
+  pointer-events: none;
+}
+
+.form__label {
+  color: #000;
+  font-size: 22px;
+  /* Used to position the element relative to its parent element. */
+  position: absolute;
+  bottom: 0;
+  /* Setting the left margin of the element to 5px. */
+  left: 5px;
+  /* Setting the top margin of the element to 10px. */
+  top: 10px;
+  /* Setting the transition of the element to 0.5 seconds, ease-in-out. */
+  transition: 0.5s ease-in-out;
+  /* Used to prevent the element from being clicked. */
+  pointer-events: none;
+}
+
+/* Setting the top margin of the label to -14px, the font-size to 18px and the color to #2196f3. */
+input:focus ~ label,
+input:valid ~ label {
+  /* Setting the top margin of the label to -14px, the font-size to 18px and the color to #2196f3. */
+  top: -14px;
+  font-size: 18px;
+  color: #2196f3;
+}
+
+/* Setting the position of the element to relative, the display to block and the width to 100%. */
+.barra {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+/* Setting the content of the element to an empty string, the height to 2px, the width to 0%, the
+bottom margin to 0, the position to absolute, the background to a linear-gradient, the transition to
+0.3 seconds, ease and the left margin to 0. */
+.barra::before {
+  content: "";
+  height: 2px;
+  width: 00%;
+  bottom: 0;
+  /* Used to position the element relative to its parent element. */
+  position: absolute;
+  /* Setting the background of the element to a linear-gradient. */
+  background: linear-gradient(to right, #f5af19, #f12711);
+  /* Setting the transition of the element to 0.3 seconds, ease and the width. */
+  transition: 0.3s ease width;
+  left: 0;
+}
+
+/* Setting the width of the element to 100%. */
+input:focus ~ .barra::before {
+  width: 100%;
+}
+
+/* Setting the font-family of the button to 'League Spartan', sans-serif, the background to #000, the
+border to none, the display to block, the width to 80%, the margin to 10px auto, the color to
+#f2f2f2, the padding to 0, the height to 40px and the border-radius to 10px. */
+button {
+  font-family: "League Spartan", sans-serif;
+  background: #000;
+  border: none;
+  display: block;
+  width: 80%;
+  margin: 10px auto;
+  color: #f2f2f2;
+  padding: 0;
+  height: 40px;
+  border-radius: 10px;
+}
+
+/* Setting the border-radius of the element to 8px, the font-family to 'League Spartan', sans-serif,
+the font-size to 20px, the border to none, the display to block, the width to 100%, the margin to
+10px auto, the color to #000, the padding to 0 and the height to 40px. */
+.form__input {
+  border-radius: 8px;
+  font-family: "League Spartan", sans-serif;
+  font-size: 20px;
+  border: none;
+  display: block;
+  width: 100%;
+  margin: 10px auto;
+  color: #000;
+  padding: 0;
+  height: 40px;
+}
+
+.form__cta {
+  /* Setting the font-family of the element to 'League Spartan', sans-serif. */
+  font-family: "League Spartan", sans-serif;
+  background: #000;
+  /* Used to remove the border of the element. */
+  border: none;
+  /* Making the element take up the entire width of the parent element. */
+  display: block;
+  width: 80%;
+  margin: 10px auto;
+  color: #f2f2f2;
+  padding: 0;
+  height: 40px;
+  /* Setting the border-radius of the element to 10px. */
+  border-radius: 10px;
+  /* Used to change the cursor to a pointer when the mouse is over the element. */
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.form__cta:hover{
+  background: rgb(6, 141, 6);
+  transition:  ease-in 0.7s;   
+  color: #fff;
+  font-size: 20px;
+  
+}
+
+/* Boton 2*/
+
+.form__cta1 {
+  /* Setting the font-family of the element to 'League Spartan', sans-serif. */
+  font-family: "League Spartan", sans-serif;
+  background: #000;
+  /* Used to remove the border of the element. */
+  border: none;
+  /* Making the element take up the entire width of the parent element. */
+  display: block;
+  width: 80%;
+  margin: 10px auto;
+  color: #f2f2f2;
+  padding: 0;
+  height: 40px;
+  /* Setting the border-radius of the element to 10px. */
+  border-radius: 10px;
+  /* Used to change the cursor to a pointer when the mouse is over the element. */
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.form__cta1:hover{
+  background: rgb(185, 17, 22);
+  transition:  ease-in 0.2s;   
+  color: #fff;
+  font-size: 20px;
+  box-shadow: #f5af19;
+  
+}
+
+
+
+
+
+
+
+
+/*Responsive design */
+
+/* Setting the width of the form to 80% when the screen is 500px or less. */
+@media screen and (max-width: 500px){
+    form{
+        width: 80%;
+    
+    }
+    .form__label{
+        font-size: 20px;
+    }
+
+}
+/* Setting the font-size of the element with the class `form__label` to 14px when the screen is 319px
+or less. */
+@media screen and (max-width: 319px){
+
+    .form__label{
+        font-size: 15px;
+    }
+
+
+
+}
+
+
+/*
+
+label {
+  display: flex;
+  align-items: left;
+}
+
+span::after {
+  padding-left: 5px;
+}
+
+input:invalid + span::after {
+  content: "✖";
+}
+
+input:valid + span::after {
+  content: "✓";
+}
+*/

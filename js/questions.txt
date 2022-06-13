@@ -1,0 +1,256 @@
+MCQS
+
+//Question No #1
+
+//level A1s
+
+export const data = [
+  { //level A1-1
+    question: "What's_____ name? She is Sussy.",
+    choices: ["A) my", "B) your", "C) his", "D) her"],
+    answer: "D) her",
+  },
+  {
+    question: "Do you _____ cooking? Of course.",
+    choices: ["A) to Like", "B) liked", "C) like", "D) will like"],
+    answer: "C) like",
+  },
+  {
+    question: "My friends _____ from Germany.",
+    choices: ["A) is", "B) are", "c) am", "D) isn't"],
+    answer: "B) are",
+  },
+  {//level A1-2
+    question: "_____ do you exercise? I exercise twice a week",
+    choices: ["A) What time", "B) Where", "C) How often", "D) Who"],
+    answer: "C) How often",
+  },
+  {
+    question: "Why _____ crying? ",
+    choices: ["A) is she", "B) she was", "C) did she", "D) she is"],
+    answer: "A) is she",
+  },
+  {
+    question: "A car is _____ than a cell phone",
+    choices: ["A) the most expensive", "B) expensive", "C) more expensive", "as expensive as"],
+    answer: "C) more expensive",
+  },
+
+//];
+
+//level A2
+
+
+//export const data2 =[
+  {//level A2-1
+    question: "Anne _____ at home last night",
+    choices: ["A) isn't", "B) didn't", "C) weren't", "D) wasn't"],
+    answer: "D) wasn't",
+  },
+  {
+    question: "  _____ you_____ Tv last night when I called you? What else ____ you do?",
+    choices: ["A) Are/watching/ do", "B) Is/watching/do", "C) Were/watching /did", "D) Did/watch/did"],
+    answer: "C) Were/watching /did",
+  },
+  {
+    question: "What did Estela use to do after school? She ______ every afternoon.",
+    choices: ["A) plays basketball", "B) use to play basketball", "C) Used to", "D) used to play basketball"],
+    answer: "D) used to play basketball",
+  },
+
+   {//level A2-2 HEEEEEEEEEEEEEEEEEEEEEEEEEEREEEEEEEE WEEEEE GOOOOOOOOOOOO
+    question: "Probably, I _____ go out for dinner",
+    choices: ["A) going to", "B) maybe", "C) can", "D) will"],
+    answer: "D) will",
+  },
+  {
+    question: "Is she_____ get married soon?",
+    choices: ["A) going to", "B) can", "C) will", "D) might"],
+    answer: "A) going to",
+  },
+  {
+    question: "What time are you _____ home tomorrow morning? At about 8 oclock",
+    choices: ["A) leave", "B) left", "C) leaving", "D) to leave"],
+    answer: "C) leaving",
+  },
+];
+/*
+//Level B1
+//export const data3 =[
+  {//level B1-1
+      question: "Where .... you been? I .... seen you since school",
+      choices: ["A) have/have", "B) have/haven't", "C) has/hasn't", "D) haven't/have"],
+      answer: "B) have/haven't",
+  },
+  {
+      question: "I  .... an interesting novel recently ",
+      choices: ["A) am reading", "B) were reading", "C) have been reading", "D) read"],
+      answer: "C) have been reading",
+  },
+  {
+      question: "How long have you been learning English? I have been studying it _______ 3 years ago.",
+      choices: ["A) for", "B) from", "C) since", "D) for about"],
+      answer: "C) since",
+    },
+
+
+     {//level B1-2
+      question: "I would rather ....at home than ....to that event. ",
+      choices: ["A) stay/attend", "B)stay/attended", "C) stayed/attend", "D) staying/attending"],
+      answer: "A) stay/attend",
+  },
+  {
+      question: "Do you  ..... in the city or the suburbs? ",
+      choices: ["A) living", "B) would you prefer living", "C) prefer living", "D) prefer "],
+      answer: "C) prefer living",
+  },
+  {
+      question: "Jose: I am having a surprise birthday party for Alex. Do you want to go? Luz: It would be great, __________. Maybe next time",
+      choices: ["A) unfortunately I have to work.", "B) How can I help? ", "C) What time is it going to be?", "D) I do not want."],
+      answer: "A) unfortunately I have to work.",
+    },
+
+     {//level B1-3 
+      question: "Every time the manager hires new staff, he ..... take experience into consideration. ",
+      choices: ["A) can", "B) might", "C) should", "D) could"],
+      answer: "C) should",
+  },
+  {
+      question: "You ..... follow the rules and regulations of your school and city to avoid problems. ",
+      choices: ["A) may", "B) must", "C) musn't", "D) shouldn't"],
+      answer: "B) must",
+  },
+  {
+      question: "I ...... design a test for my students this week because the coordinator asked for it. ",
+      choices: [" A) can", "B) should", "C) have to", "D) might"],
+      answer: "C) have to",
+    },
+
+   {//level B1-4 in progress
+    question: "Don't forget the umbrella because if it ....., you will get wet",
+    choices: ["A) rain", "B) rains", "C) rained", "D) will rain"],
+    answer: "B) rains",
+},
+{
+    question: "You get water if you ..... hydrogen and oxygen",
+    choices: ["A) mix", "B) mixes", "C) mixed", "D) will mix"],
+    answer: "A) mix",
+},
+{
+    question: "If my students spoke English fluently, I _____ English during the whole class.",
+    choices: ["A) would have spoken", "B) would speak", "C) will speak", "D) spoke"],
+    answer: "B) would speak",
+  },
+
+//  ];
+
+//Level B2
+//export const data4 =[
+  {//level B2-1
+    question: "____do you agree with the followig statement?",
+    choices: ["A) Up to", "B) At what", "C) To what extent", "D) On what"],
+    answer: "C) To what extent",
+},
+{
+    question: "____I am concerned ",
+    choices: ["A) As here as", "B) As far as ", "C) As where as", "D) As what as"],
+    answer: "B) As far as ",
+},
+{
+    question: "'I will leave for  New York tomorrow', She said:_____ ",
+    choices: ["A) She will leave", "B) She leaves", "C) She would leave", "D) She left"],
+    answer: "C) She would leave",
+  },  
+
+
+{//level B2-2
+  question: "It  has _____ that 80% of the population is under alert",
+  choices: ["A) been said", "B) say", "C) said", "D) must be said"],
+  answer: "A) been said",
+},
+{
+  question: "What _____by the journalists?",
+  choices: ["A) was observing", "B) was observed", "C) observed ", "D) were observed"],
+  answer: "B) was observed",
+},
+{
+  question: "It had been _____ by the founders",
+  choices: ["A) carried out", "B) carry out", "C) carries out", "D) carrying out"],
+  answer: "A) carried out",
+}, 
+
+
+{//level B2-3 
+  question: "I'm getting ..... the noise now. I found it stressful when I first moved in. ",
+  choices: ["A) use to", " B) uses", "C) used to", "D) to use"],
+  answer: "C) used to",
+},
+{
+  question: "It took my mother years to  ..... in London after moving from Pakistan.",
+  choices: ["A) use to live", "B) getting used to live", "C) used to live", "D) get used to living"],
+  answer: "D) get used to living",
+},
+{
+  question: "I _____ trying to stop drinking soda even before the doctor told me.",
+  choices: ["A) would have been", "B) had been", "C) have been", "D) would be"],
+  answer: "B) had been",
+}, 
+
+{//level B2-4 in progress
+  question: "If you had studied hard, you _____ the exam",
+  choices: ["A) will pass", "B) will have to pass", "C) would have passed", "D) would pass"],
+  answer: "C) would have passed",
+},
+{
+  question: "We would have gone out if the rain ____",
+  choices: ["A) had stopped", "B) would stop", "C) have stopped", "D) has stopped"],
+  answer: "A) had stopped",
+},
+{
+  question: "Missing word indicates example: _____, several of the following species which have beeen recently found are endangered",
+  choices: ["A) Finally", "B) Consequently", "C) For instance", "D) Therefore"],
+  answer: "C) For instance",
+}, 
+
+//]
+
+//Level C1
+//export const data5 =[
+{//level C1-1
+    question: "Don't put your glass of water on the ...... of the table - someone will knock it off.",
+    choices: ["A) border", "B) boundary", "C) extremity", "D) edge"],
+    answer: "D) edge",
+  },
+{
+    question: "When I realised I had dropped my keys, I decided to ..... my steps",
+    choices: ["A) go back", "B) watch", "C) return", "D) retrace"],
+    answer: "D) retrace",
+  },
+{
+    question: "It is a fact rather than _____ thinking",
+    choices: ["A) wish", "B) wishful", "C) wishes", "D) wishing"],
+    answer: "B) wishful",
+  },  
+{
+    question: "The position was set focused on____they had better academic qualifications",
+    choices: ["A) Weather", "B) Weather or not", "C) Whether", "D) Wether or not"],
+    answer: "D) Wether or not",
+  },  
+{
+    question: "The group has achieved a victory, against _____ ",
+    choices: ["A) all of", "B) all above", "C) all odds", "D) all of the above"],
+    answer: "C) all odds",
+  },  
+{
+    question: "I can't ____ the thought of having to start all over",
+    choices: ["A) bears", "B) beared", "C) bearing", "D) bear"],
+    answer: "D) bear",
+  }, 
+
+
+
+
+
+
+]
+*/

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Posicionamiento</title>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@600&family=Exo:ital,wght@1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="only screen and (max-width: 768px)" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+ 
+</head>
+
+<body>
+
+
+    <div id="container" class="container">
+        <!--    Start Section     -->
+        <div id="start" class="grupo"><h3>Start Exam</h3>
+
+        </div>
+
+        <!--    Guide Section    -->
+        <div id="guide" class="grupo">
+            <h2>Instructions</h2>
+            <h4>1. Once You Select Your Answer.It Can't Be Undone.</h4>
+            <h4>2. You'll Get Points On The Basic Of Your Correct Answers.</h4>
+            <h4>3. You Can't Exit From The Quiz While You Are Playing.</h4>
+            <div id="button" class="form_cta1">
+                <button id="continue" class="form__cta">Continue</button>
+                <button id="exit" class="form__cta1">Exit</button>
+               
+            </div>
+        </div>
+        <!--    Quiz Section    -->
+        <div id="quiz" class="grupo">
+            <div id="quiz_header">
+                <h5>Posicionamiento</h5>
+                <div id="timer">
+                    <h6>Time Left</h6>
+                    <h6 id="time">00</h6>
+                </div>
+            </div>
+
+            <!--     Quiz Questions  -->
+
+            <div id="question">
+                <h2 id="questionNo"></h2>
+                <h2 id="questionText"></h2>
+            </div>
+
+            <!--       Quiz Choices   -->
+
+            <div id="optionList">
+                <h4 class="choice_que" id="option1"></h4>
+                <h4 class="choice_que" id="option2"></h4>
+                <h4 class="choice_que" id="option3"></h4>
+                <h4 class="choice_que" id="option4"></h4>
+            </div>
+
+            <!--  Answers Section-->
+
+            <div id="answersSection"> 
+                <h3 id="total_correct">2 Of 3 Questions</h3>
+                <h3 id="next_question">Next</h3>
+            </div>
+        </div>
+        <!--   Result Section  -->
+        <div id="result" class="grupo">
+            
+            <h6>You Are Completed The Test</h6>
+            <div class="grupo">
+                <h6 id="points"></h6>
+                <h1 id="levels"></h1>
+
+            </div>
+        
+            <button type="submit" id="quit" class="form__cta1">Send Answers</button>
+     
+            <p id="demo"></p>
+           <!--<button id="startAgain">Start Again</button>--> 
+        </div>
+    </div>
+
+
+    
+
+
+
+
+    <script src="js/questions.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/cesiumjs/1.78/Build/Cesium/Cesium.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+
+
+
+</html>
